@@ -39,6 +39,7 @@ const PromptsListComponent = () => {
         setError('An unexpected error occurred');
       }
     } finally {
+      
       setLoading(false);
     }
   };
